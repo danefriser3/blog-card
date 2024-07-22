@@ -65,6 +65,11 @@ body {
   display: flex;
   flex-direction: row;
   gap: 8px;
+  width: max-content;
+}
+.content-action:focus {
+  border-radius: 0.25em;
+  box-shadow: 0px 0px 0px 4px rgba(68, 76, 231, 12%);
 }
 .arrow-right-line {
   display: inline-block;
